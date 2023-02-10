@@ -1,0 +1,8 @@
+body {
+  /* weights: 400-500-700 */
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

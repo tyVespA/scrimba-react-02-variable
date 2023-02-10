@@ -1,0 +1,45 @@
+.cardHeader {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.role {
+  color: #f3bf99;
+  padding-bottom: 9px;
+}
+
+.website {
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding-bottom: 33px;
+}
+
+button {
+  padding: 9px 18px;
+  border-radius: 6px;
+  border: transparent;
+}
+
+.emailBtn {
+  background-color: white;
+}
+
+.linkedInBtn {
+  background-color: #5093e2;
+  color: white;
+}
