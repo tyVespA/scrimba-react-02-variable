@@ -1,0 +1,12 @@
+.cardFooter {
+  background-color: #161619;
+  padding: 20px;
+
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+}
+
+.cardFooter svg {
+  color: #918e9b;
+}

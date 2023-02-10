@@ -22,17 +22,26 @@ img {
   padding-bottom: 15px;
 }
 
-.buttons {
+.btnContainer {
   display: flex;
   justify-content: center;
   gap: 18px;
-  padding-bottom: 33px;
+  padding-inline: 35px;
 }
 
 button {
   padding: 9px 18px;
   border-radius: 6px;
   border: transparent;
+}
+
+.emailBtn,
+.linkedInBtn {
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .emailBtn {

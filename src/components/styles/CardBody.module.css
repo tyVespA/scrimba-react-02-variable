@@ -1,0 +1,8 @@
+.cardBody {
+  padding: 35px;
+}
+
+.cardBody p {
+  font-size: 0.9rem;
+  padding-bottom: 13px;
+}
