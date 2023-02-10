@@ -4,12 +4,17 @@ import BusinessCard from "./components/BusinessCard";
 
 function App() {
   return (
-    <div>
+    <div className="appContainer">
       <BusinessCard
-        bgColor="#1A1B21"
-        color="white"
+        theme="white"
         name="Marco Fasulli"
         role="Social Media Manager"
+        website="testwebsite.org"
+      />
+      <BusinessCard
+        theme="dark"
+        name="Paolo de Medici"
+        role="Agent Manager"
         website="testwebsite.org"
       />
     </div>

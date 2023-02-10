@@ -6,9 +6,9 @@ import InstagramIcon from "../assets/InstagramIcon.svg";
 import LinkedinIcon from "../assets/LinkedinIcon.svg";
 import GitHubIcon from "../assets/GitHubIcon.svg";
 
-function CardFooter() {
+function CardFooter({ bgColorFooter }) {
   return (
-    <div className={s.cardFooter}>
+    <div className={s.cardFooter} style={{ backgroundColor: bgColorFooter }}>
       <a href="#">
         <img src={TwitterIcon} alt="" />
       </a>
