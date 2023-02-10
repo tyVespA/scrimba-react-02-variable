@@ -19,6 +19,7 @@ function CardHeader({ name, role, website, linkedin, roleColor }) {
         <button className={s.emailBtn}>
           <EmailIcon fontSize="small" /> Email
         </button>
+        {/* linkedin button only displayed if linkedin variable is passed in app.jsx */}
         {linkedinBtn && (
           <button className={s.linkedInBtn}>
             <LinkedInIcon /> LinkedIn
