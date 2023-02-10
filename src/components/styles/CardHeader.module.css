@@ -37,7 +37,7 @@ button {
 
 .emailBtn,
 .linkedInBtn {
-  width: 115px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

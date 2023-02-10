@@ -10,6 +10,7 @@ function App() {
         name="Marco Fasulli"
         role="Social Media Manager"
         website="testwebsite.org"
+        linkedin="yes"
       />
       <BusinessCard
         theme="dark"

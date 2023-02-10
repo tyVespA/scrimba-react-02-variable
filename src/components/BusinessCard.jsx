@@ -28,6 +28,7 @@ function BusinessCard({ theme, name, role, website, linkedin }) {
         role={role}
         website={website}
         roleColor={roleColor}
+        linkedin={linkedin}
       />
       <CardBody />
       <CardFooter bgColorFooter={bgColorFooter} />

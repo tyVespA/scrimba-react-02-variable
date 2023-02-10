@@ -4,7 +4,9 @@ import Pfp from "../assets/sfondo1.jpg";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-function CardHeader({ name, role, website, roleColor }) {
+function CardHeader({ name, role, website, linkedin, roleColor }) {
+  let linkedinBtn = linkedin;
+  console.log(linkedinBtn);
   return (
     <div className={s.cardHeader}>
       <img src={Pfp} alt="" className={s.pfp} />
@@ -17,9 +19,11 @@ function CardHeader({ name, role, website, roleColor }) {
         <button className={s.emailBtn}>
           <EmailIcon fontSize="small" /> Email
         </button>
-        <button className={s.linkedInBtn}>
-          <LinkedInIcon /> LinkedIn
-        </button>
+        {linkedinBtn && (
+          <button className={s.linkedInBtn}>
+            <LinkedInIcon /> LinkedIn
+          </button>
+        )}
       </div>
     </div>
   );
