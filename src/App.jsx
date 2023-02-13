@@ -17,6 +17,7 @@ function App() {
         name="Paolo de Medici"
         role="Agent Manager"
         website="testwebsite.org"
+        linkedin=""
       />
     </div>
   );

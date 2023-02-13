@@ -5,8 +5,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function CardHeader({ name, role, website, linkedin, roleColor }) {
-  let linkedinBtn = linkedin;
-  console.log(linkedinBtn);
+  // let linkedinBtn = linkedin;
+  // console.log(linkedinBtn);
   return (
     <div className={s.cardHeader}>
       <img src={Pfp} alt="" className={s.pfp} />
@@ -20,7 +20,7 @@ function CardHeader({ name, role, website, linkedin, roleColor }) {
           <EmailIcon fontSize="small" /> Email
         </button>
         {/* linkedin button only displayed if linkedin variable is passed in app.jsx */}
-        {linkedinBtn && (
+        {linkedin && (
           <button className={s.linkedInBtn}>
             <LinkedInIcon /> LinkedIn
           </button>
